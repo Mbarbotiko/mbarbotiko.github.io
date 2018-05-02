@@ -1,35 +1,84 @@
 $(document).ready(function () {
 
-    $("#about-icon").hover(function(){
-        $(this).animate({ 
-          width: '85%',
+
+  function window980(a) {
+    if (a.matches) {
+
+      $("#about-icon").hover(function () {
+        $(this).animate({
+          width: '55%',
         }, 1000, );
-        $(this).animate({ 
-            width: '75%',
-          }, 1000 );
+        $(this).animate({
+          width: '45%',
+        }, 1000);
       });
 
-      
-    $("#portfolio-icon").hover(function(){
-        $(this).animate({ 
-          width: '85%',
+
+      $("#portfolio-icon").hover(function () {
+        $(this).animate({
+          width: '55%',
         }, 1000, );
-        $(this).animate({ 
-            width: '75%',
-          }, 1000 );
+        $(this).animate({
+          width: '45%',
+        }, 1000);
       });
 
-      
-    $("#contact-icon").hover(function(){
-        $(this).animate({ 
-          width: '85%',
+
+      $("#contact-icon").hover(function () {
+        $(this).animate({
+          width: '55%',
         }, 1000, );
-        $(this).animate({ 
-            width: '75%',
-          }, 1000 );
+        $(this).animate({
+          width: '45%',
+        }, 1000);
       });
 
-//add an onclick or hover for my image for a short message welcoming the user to my page
+
+
+    } else {
+
+
+      $("#about-icon").hover(function () {
+        $(this).animate({
+          width: '85%',
+        }, 1000, );
+        $(this).animate({
+          width: '75%',
+        }, 1000);
+      });
+
+
+      $("#portfolio-icon").hover(function () {
+        $(this).animate({
+          width: '85%',
+        }, 1000, );
+        $(this).animate({
+          width: '75%',
+        }, 1000);
+      });
+
+
+      $("#contact-icon").hover(function () {
+        $(this).animate({
+          width: '85%',
+        }, 1000, );
+        $(this).animate({
+          width: '75%',
+        }, 1000);
+      });
+
+
+    }
+  }
+
+  var a = window.matchMedia("(max-width: 980px)")
+  window980(a);
+  a.addListener(window980);
+
+  window980();
+
+
+  //add an onclick or hover for my image for a short message welcoming the user to my page
 
 
 
@@ -48,26 +97,26 @@ $(document).ready(function () {
 
 
   $('#submitBtn').one('click', function (event) {
-      event.preventDefault();
-      var name = $('#name').val().trim();
-      var email = $('#email').val().trim();
-      var userText = $('#user-entry').val().trim();
+    event.preventDefault();
+    var name = $('#name').val().trim();
+    var email = $('#email').val().trim();
+    var userText = $('#user-entry').val().trim();
 
-      var newSubmit = {
-          enteredName: name,
-          enteredEmail: email,
-          enteredText: userText,
-      };
+    var newSubmit = {
+      enteredName: name,
+      enteredEmail: email,
+      enteredText: userText,
+    };
 
-      database.ref().push(newSubmit);
+    database.ref().push(newSubmit);
 
 
-      $("#name").val("");
-      $("#email").val("");
-      $("#user-entry").val("");
+    $("#name").val("");
+    $("#email").val("");
+    $("#user-entry").val("");
 
-      alert('Thanks!');
-      //use empty to clear these out
+    alert('Thanks!');
+    //use empty to clear these out
 
 
 
