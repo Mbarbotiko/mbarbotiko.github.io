@@ -72,6 +72,20 @@
     }
     
 
+    #icon-container{
+        margin-left:0px;
+        margin-bottom:20px;
+    }
+
+    #about-container{
+        padding:0px;
+        
+    }
+    #about-container h1{
+       font-size: 16pt;
+        
+    }
+
 
 }
         
