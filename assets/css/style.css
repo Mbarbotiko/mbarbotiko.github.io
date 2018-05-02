@@ -175,3 +175,10 @@ span.carousel-control-prev-icon,span.carousel-control-next-icon{
     padding:20px 100px 0px 100px;
     
 }
+
+
+.carousel-item h4{
+    color:grey;
+    text-align: center;
+    margin-top:20px;
+}
