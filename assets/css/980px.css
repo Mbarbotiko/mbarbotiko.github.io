@@ -1,5 +1,45 @@
 @media screen and (max-width: 980px) and (min-width: 769px) {
-   
+    #me{
+        position: relative;;
+        left:25%;
+        margin-top:25px;
+        border-radius:100%;
+        width:45%;
+        opacity: .9;
+        padding:50px;
+        border:grey dotted 3px;
+       
+    }
+    
+    #about{
+        position:absolute;
+        left:45%;
+        top:0%;
+        z-index:2;
+    }
+    
+    #portfolio{
+        position:absolute;
+        left:21%;
+        top:45%;
+        z-index:2;
+    }
+    
+    #contact{
+        position:absolute;
+        right:21%;
+        top:45%;
+        z-index:2;
+    }
+    
+    
+    #portfolio-icon, #contact-icon, #about-icon{
+        width:65%;
+        
+    
+    }
+    
+
 
 }
         

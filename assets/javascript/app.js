@@ -2,30 +2,30 @@ $(document).ready(function () {
 
     $("#about-icon").hover(function(){
         $(this).animate({ 
-          width: '150px',
+          width: '85%',
         }, 1000, );
         $(this).animate({ 
-            width: '120px',
+            width: '75%',
           }, 1000 );
       });
 
       
     $("#portfolio-icon").hover(function(){
         $(this).animate({ 
-          width: '130px',
+          width: '85%',
         }, 1000, );
         $(this).animate({ 
-            width: '100px',
+            width: '75%',
           }, 1000 );
       });
 
       
     $("#contact-icon").hover(function(){
         $(this).animate({ 
-          width: '130px',
+          width: '85%',
         }, 1000, );
         $(this).animate({ 
-            width: '100px',
+            width: '75%',
           }, 1000 );
       });
 

@@ -22,7 +22,7 @@ a:hover
 .container{
     margin-top:25px;
     background-color:white;
-    max-width: 80%;
+    max-width: 1080px;
     height:auto;
     border:solid grey 2px;
 }
@@ -36,8 +36,7 @@ a:hover
     left:25%;
     margin-top:25px;
     border-radius:100%;
-    width:50%;
-    height:90%;
+    width:45%;
     opacity: .9;
     padding:50px;
     border:grey dotted 3px;
@@ -53,26 +52,29 @@ a:hover
 
 #portfolio{
     position:absolute;
-    left:28%;
-    top:60%;
+    left:31%;
+    top:45%;
     z-index:2;
 }
 
 #contact{
     position:absolute;
-    right:28%;
-    top:60%;
+    right:31%;
+    top:45%;
     z-index:2;
 }
 
 
 #portfolio-icon, #contact-icon{
-    width:100px;
+    width:75%;
+    
 
 }
 
 #about-icon{
-    width:120px;
+    width:75%;
+    
+  
 
 }
 
@@ -94,7 +96,7 @@ a:hover
 
 .social img{
     position:relative;
-    left:35%;
+    left:30%;
     border:1px solid beige;
     border-radius:100%;
     height:60px;
@@ -111,7 +113,8 @@ a:hover
 
 }
 #connect{
-    text-align: center;
+    position:relative;
+    left:36%;
 }
 
 

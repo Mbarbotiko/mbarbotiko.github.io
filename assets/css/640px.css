@@ -2,5 +2,66 @@
 
 @media screen and (max-width: 640px) and (min-width:0px){
 
+    #me{
+        position: relative;;
+        left:18%;
+        margin-top:25px;
+        border-radius:100%;
+        width:65%;
+        opacity: .9;
+        padding:50px;
+        border:grey dotted 3px;
+       
+    }
+    
+    #about{
+        position:absolute;
+        left:45%;
+        top:2%;
+        z-index:2;
+    }
+    
+    #portfolio{
+        position:absolute;
+        left:18%;
+        top:45%;
+        z-index:2;
+    }
+    
+    #contact{
+        position:absolute;
+        right:5%;
+        top:45%;
+        z-index:2;
+    }
+    
+    
+    #portfolio-icon, #contact-icon, #about-icon{
+        width:50%;
+        
+    
+    }
+
+    h2#connect{
+       font-size: 18pt;
+    }
+
+    #connect{
+        position:relative;
+        left:35%;
+    }
+
+    .social img{
+        position:relative;
+        left:25%;
+        border:1px solid beige;
+        border-radius:100%;
+        height:45px;
+        margin:10px 30px 10px 30px;
+    
+    }
+    
+
+
 }
         
