@@ -16,18 +16,18 @@
 
 
 
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/980px.css">
-    
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/768px.css">
-    
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/640px.css">
-    
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/440px.css">
-    
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/365px.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/340px.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/980px.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/768px.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/640px.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/440px.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/365px.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/340px.css">
 
 
     <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,45 +46,74 @@
     <div class="container">
         <div class='nav'>
             <div id="icon-container">
-                <a href='about.html'><img class='nav-icon'src=assets/pictures/about.png></a>
+                <a href='about.html'>
+                    <img class='nav-icon' src=assets/pictures/about.png>
+                </a>
 
-                <a href='portfolio.html'><img class='nav-icon'src=assets/pictures/portfolio.png></a>
+                <a href='portfolio.html'>
+                    <img class='nav-icon' src=assets/pictures/portfolio.png>
+                </a>
 
-                <a href='contact.html'><img class='nav-icon'src=assets/pictures/contact.png></a>
+                <a href='contact.html'>
+                    <img class='nav-icon' src=assets/pictures/contact.png>
+                </a>
 
 
             </div>
         </div>
+        <div class="modal" id='modalsubmit' tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Submit was Successful!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you!</p>
+                    </div>
+                    <div class="modal-footer">
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <form>
-                <div class="form-group">
-                    <label for="name-label">Name</label>
-                    <input type="name" class="form-control" id="name" placeholder="John Doe">
-                </div>
-                <div class="form-group">
-                    <label for="email-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                </div>
-    
-    
-                <div class="form-group">
-                    <label for="text-label"></label>
-                    <textarea class="form-control" id="user-entry" 
-                    placeholder="Please include constructive criticism here"
-                        rows="3"></textarea>
-                </div>
-                <button type="button" id='submitBtn'class="btn btn-dark">Submit</button>
-            </form>
+            <div class="form-group">
+                <label for="name-label">Name</label>
+                <input type="name" autocomplete="name" class="form-control" id="name" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email-label">Email address</label>
+                <input type="email" autocomplete="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+
+
+            <div class="form-group">
+                <label for="text-label"></label>
+                <textarea class="form-control" id="user-entry" placeholder="Please include constructive criticism here" rows="3"></textarea>
+            </div>
+            <button type="button" id='submitBtn' class="btn btn-dark">Submit</button>
+        </form>
 
         <div class="social">
             <h2 id="connect">Connect With Me</h2>
 
-            <a href="https://github.com/Mbarbotiko/" target="_blank"><img src="assets/pictures/icongithub.png"alt="git hub icon"></a>
+            <a href="https://github.com/Mbarbotiko/" target="_blank">
+                <img src="assets/pictures/icongithub.png" alt="git hub icon">
+            </a>
 
-            <a href="https://www.linkedin.com/in/margarita-barbotiko-b5814050/" target="_blank"><img src="assets/pictures/iconlinked.png"alt="linked in icon"></a>
+            <a href="https://www.linkedin.com/in/margarita-barbotiko-b5814050/" target="_blank">
+                <img src="assets/pictures/iconlinked.png" alt="linked in icon">
+            </a>
 
 
-            <a href="https://twitter.com/mbarbotiko1" target="_blank"><img src="assets/pictures/icontwitter.png"alt="twittericon"></a>
+            <a href="https://twitter.com/mbarbotiko1" target="_blank">
+                <img src="assets/pictures/icontwitter.png" alt="twittericon">
+            </a>
 
         </div>
 
@@ -100,7 +129,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
 
     <script src="assets/javascript/app.js"></script>
