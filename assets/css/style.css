@@ -1,10 +1,13 @@
 
 
-body{
-    background-image: url("../pictures/concrete-texture.png");
-    margin:0 auto;
-    font-family:Mina, sans-serif;
+.nav-link:hover{
+    color:rgb(117, 245, 117);
+    
 
+}
+
+ul{
+    color:white;
 }
 
 a{
@@ -20,16 +23,27 @@ a:hover
 }
 
 .container{
-    margin-top:5%;
+    margin:5%;
     background-color:white;
     max-width: 1080px;
-    height:80%;
+    height:auto;
     border:solid grey 2px;
-    border-radius: 4px;
+    border-radius: 8px;
     opacity: 0.9;
-    overflow: scroll;
+    font-family:Mina, sans-serif;
+    font-size: 10pt;
+    text-transform: none;
 
 
+
+}
+
+#myinfo{
+    overflow: auto;
+    font-family:Mina, sans-serif;
+    font-size: 10pt;
+    text-transform: none;
+    height:500px;
 }
 
 #carouselExampleIndicators{
@@ -152,6 +166,7 @@ img.nav-icon{
 .carousel-inner{
     width:70%;
     height:70%;
+    
 
 }
 
@@ -163,7 +178,7 @@ img.nav-icon{
 
 span.carousel-control-prev-icon,span.carousel-control-next-icon{
 
-    background-color:black;
+    background-color:rgb(6, 209, 245);
 
 }
 
