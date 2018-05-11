@@ -20,10 +20,10 @@ a:hover
 }
 
 .container{
-    margin-top:25px;
+    margin-top:5%;
     background-color:white;
     max-width: 1080px;
-    height:700px;
+    height:80%;
     border:solid grey 2px;
     border-radius: 4px;
     opacity: 0.9;
