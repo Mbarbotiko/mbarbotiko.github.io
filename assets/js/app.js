@@ -54,27 +54,28 @@ $(document).ready(function () {
       <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol><div class="carousel-inner">
   <div class="carousel-item active">
-      <img class="d-block w-100" src="images/triviagame.jpg" href="https://mbarbotiko.github.io/TriviaGame/"target="_blank" alt="First slide">
-      <a href="https://mbarbotiko.github.io/TriviaGame/" target="_blank"><h4>Trivia Game (JQuery)</h4></a>
-
+  <img class="d-block w-100" src="images/triviagame.jpg"href="https://mbarbotiko.github.io/TriviaGame/"target="_blank" alt="Second slide">
+  <a href="https://mbarbotiko.github.io/TriviaGame/" target="_blank"><h4>(APP) Video Game Trivia (JQuery)</h4></a>
+<a href="https://github.com/Mbarbotiko/TriviaGame" target="_blank"><h4>(GitHub Repo)</h4></a>
   </div>
   <div class="carousel-item">
       <img class="d-block w-100" src="images/crystalsgame.jpg"href="https://mbarbotiko.github.io/Week-4-Game/"target="_blank" alt="Second slide">
-      <a href="https://mbarbotiko.github.io/Week-4-Game/" target="_blank"><h4>Crystals Game (JQuery)</h4></a>
+      <a href="https://mbarbotiko.github.io/Week-4-Game/" target="_blank"><h4>(APP) Crystals Game (JQuery)</h4></a>
+  <a href="https://github.com/Mbarbotiko/Week-4-Game" target="_blank"><h4>(GitHub Repo)</h4></a>
   </div>
 
 
   <div class="carousel-item">
       <img class="d-block w-100" src="images/api.jpg"href="https://mbarbotiko.github.io/API/"target="_blank" alt="Third slide">
-      <a href="https://mbarbotiko.github.io/API/" target="_blank"><h4>Giphy (Querying API)</h4></a>
+      <a href="https://mbarbotiko.github.io/API/" target="_blank"><h4>(APP)Cartoon Giphy (Querying API)</h4></a><a href="https://github.com/Mbarbotiko/API" target="_blank"><h4>(GitHub Repo)</h4></a>
   </div>
   <div class="carousel-item">
       <img class="d-block w-100" src="images/trainschedule.JPG" href="https://mbarbotiko.github.io/Train-Schedule/"target="_blank"alt="Fourth slide">
-      <a href="https://mbarbotiko.github.io/Train-Schedule/" target="_blank"><h4>Train Schedule (Firebase)</h4></a>
+      <a href="https://mbarbotiko.github.io/Train-Schedule/" target="_blank"><h4>(APP)Train Schedule (Firebase)</h4></a><a href="https://github.com/Mbarbotiko/Train-Schedule" target="_blank"><h4>(GitHub Repo)</h4></a>
   </div>
   <div class="carousel-item">
       <img class="d-block w-100" src="images/donna.jpg" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
-      <a href="https://dbarthell.github.io/GroupProject1/" target="_blank"><h4>Group Project</h4></a>
+      <a href="https://dbarthell.github.io/GroupProject1/" target="_blank"><h4>(APP)Travel with Donna</h4></a><a href="https://github.com/dbarthell/GroupProject1" target="_blank"><h4>(GitHub Repo</h4></a>
   </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -91,43 +92,18 @@ $(document).ready(function () {
 
   function contact() {
     $('body').html('<div class=container></div>')
-    $('.container').html(`<div class="modal" id='modalsubmit' tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Submit was Successful!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>Thank you!</p>
-            </div>
-            <div class="modal-footer">
-
-               
-            </div>
-        </div>
-    </div>
+    $('.container').html(`<form id='contactme'>
+<div class="card" >
+<div class="card-header">
+  Contact Information:
 </div>
-
-<form>
-    <div class="form-group">
-        <label for="name-label">Name</label>
-        <input type="name" autocomplete="name" class="form-control" id="name" placeholder="John Doe">
-    </div>
-    <div class="form-group">
-        <label for="email-label">Email address</label>
-        <input type="email" autocomplete="email" class="form-control" id="email" placeholder="name@example.com">
-    </div>
-
-
-    <div class="form-group">
-        <label for="text-label"></label>
-        <textarea class="form-control" id="user-entry" placeholder="Please include constructive criticism here" rows="3"></textarea>
-    </div>
-    <button type="button" id='submitBtn' class="btn btn-dark">Submit</button>
-</form>`);
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">Margarita Barbotiko</li>
+  <li class="list-group-item">mbarbotiko@gmail.com</li>
+  <li class="list-group-item">651-600-1396</li>
+  <a li class="list-group-item" href="assets/MargaritaBarbotiko2018.pdf" target="_blank">Resume</li>
+</ul>
+</div>`)
   }
 
 
@@ -263,5 +239,43 @@ $(document).ready(function () {
 
 
   //add an onclick or hover for my image for a short message welcoming the user to my page
+
+  //   `<div class="modal" id='modalsubmit' tabindex="-1" role="dialog">
+  //     <div class="modal-dialog" role="document">
+  //         <div class="modal-content">
+  //             <div class="modal-header">
+  //                 <h5 class="modal-title">Submit was Successful!</h5>
+  //                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  //                     <span aria-hidden="true">&times;</span>
+  //                 </button>
+  //             </div>
+  //             <div class="modal-body">
+  //                 <p>Thank you!</p>
+  //             </div>
+  //             <div class="modal-footer">
+
+
+  //             </div>
+  //         </div>
+  //     </div>
+  // </div>
+
+  // <form>
+  //     <div class="form-group">
+  //         <label for="name-label">Name</label>
+  //         <input type="name" autocomplete="name" class="form-control" id="name" placeholder="John Doe">
+  //     </div>
+  //     <div class="form-group">
+  //         <label for="email-label">Email address</label>
+  //         <input type="email" autocomplete="email" class="form-control" id="email" placeholder="name@example.com">
+  //     </div>
+
+
+  //     <div class="form-group">
+  //         <label for="text-label"></label>
+  //         <textarea class="form-control" id="user-entry" placeholder="Please include constructive criticism here" rows="3"></textarea>
+  //     </div>
+  //     <button type="button" id='submitBtn' class="btn btn-dark">Submit</button>
+  // </form>`);
 });
 
