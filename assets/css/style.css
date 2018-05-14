@@ -25,6 +25,7 @@ a.list-group-item:hover{
 .nav-link:hover{
     color:rgb(117, 245, 117);
     
+    
 
 }
 
@@ -177,7 +178,7 @@ img.nav-icon{
 
 .nav{
     margin-top:50px;
-    border-bottom:1px grey solid;
+    border-bottom:1px white solid;
 }
 
 #icon-container{
