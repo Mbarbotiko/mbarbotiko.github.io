@@ -67,6 +67,33 @@ a:hover
     font-size: 10pt;
     text-transform: none;
     height:500px;
+    text-indent: 5%;
+}
+#myinfo::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+#myinfo::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 100%;
+}
+
+
+#myinfo::-webkit-scrollbar-thumb {
+    background:rgb(6, 209, 245);
+    border-radius: 100%;
+}
+
+
+
+#myinfo p{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+ 
+    
 }
 
 #carouselExampleIndicators{
@@ -107,17 +134,18 @@ a:hover
 }
 
 
-#portfolio-icon, #contact-icon{
+#portfolio-icon, #contact-icon, #about-icon{
     width:75%;
     
 
 }
 
-#about-icon{
-    width:75%;
+#portfolio-icon:hover, #contact-icon:hover, #about-icon:hover{
+   cursor: pointer;
+   /* border: 1px rgb(6, 209, 245) solid;
+   border-radius: 100%; */
+   
     
-  
-
 }
 
 ::-webkit-scrollbar {
