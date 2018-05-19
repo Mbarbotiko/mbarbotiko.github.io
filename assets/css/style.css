@@ -230,6 +230,9 @@ img.nav-icon{
 span.carousel-control-prev-icon,span.carousel-control-next-icon{
 
     background-color:rgb(6, 209, 245);
+    border-radius: 100%;
+    padding:7%;
+
 
 }
 
