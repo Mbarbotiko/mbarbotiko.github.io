@@ -100,7 +100,7 @@ $(document).ready(function () {
 <ul class="list-group list-group-flush">
   <li class="list-group-item">Margarita Barbotiko</li>
   <li class="list-group-item">mbarbotiko@gmail.com</li>
-  <li class="list-group-item"><a href="tel:651-600-1396">651-600-1396</a></li>
+  <li class="list-group-item"><a href="tel:1+651-600-1396">651-600-1396</a></li>
   <li class="list-group-item"> <a href="assets/MargaritaBarbotiko2018.pdf" target="_blank">Resume</a></li>
 </ul>	</div><div>
 <ul class="icons">
