@@ -57,8 +57,6 @@ a:hover
     font-size: 10pt;
     text-transform: none;
 
-
-
 }
 
 #myinfo{
@@ -113,13 +111,6 @@ a:hover
 }
 
 
-#portfolio-icon:hover, #contact-icon:hover, #about-icon:hover{
-   cursor: pointer;
-   /* border: 1px rgb(6, 209, 245) solid;
-   border-radius: 100%; */
-   
-    
-}
 
 ::-webkit-scrollbar {
     width: 14px;
