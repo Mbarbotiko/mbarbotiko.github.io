@@ -82,7 +82,7 @@ $(document).ready(function () {
   <a href="https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60efee95-091b-4888-9a88-a8d7013a46fc" target="_blank"><h4>(APP)Travel with Donna DEMO Video</h4></a>
 </div>
 <div class="carousel-item">
-<img class="d-block w-100" src="images/liri.jpg" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
+<img class="d-block w-100" src="images/liri.JPG" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
 <a href="https://github.com/Mbarbotiko/liri-node-app" target="_blank"><h4>(Node.JS)Liri Bot(GitHub Repo)</h4></a>
 </div>
 </div>
