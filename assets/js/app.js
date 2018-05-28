@@ -84,6 +84,11 @@ $(document).ready(function () {
 <div class="carousel-item">
 <img class="d-block w-100" src="images/liri.JPG" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
 <a href="https://github.com/Mbarbotiko/liri-node-app" target="_blank"><h4>(Node.JS)Liri Bot(GitHub Repo)</h4></a>
+<a href="https://drive.google.com/file/d/1EparZQQIjtx0XB9PTWqC_IH6sS07MWPJ/view?usp=sharing
+" target="_blank"><h4>Liri Bot (Video)</h4></a>
+
+
+
 </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -109,7 +114,7 @@ $(document).ready(function () {
   <li class="list-group-item">Margarita Barbotiko</li>
   <li class="list-group-item">mbarbotiko@gmail.com</li>
   <li class="list-group-item"><a href="tel:1+651-600-1396">651-600-1396</a></li>
-  <li class="list-group-item"> <a href="assets/MargaritaBarbotiko2018.pdf" target="_blank">Resume</a></li>
+  <li class="list-group-item"> <a href="assets/MargaritaBarbotiko(2018).pdf" target="_blank">Resume</a></li>
 </ul>	</div><div>
 <ul class="icons">
   <li>

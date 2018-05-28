@@ -61,7 +61,10 @@ a{
 
 }
 
+
+
 #myinfo{
+    margin-top:3%;
     overflow: auto;
     font-family:Mina, sans-serif;
     font-size: 10pt;
@@ -98,6 +101,11 @@ a{
 
 #carouselExampleIndicators{
     margin-top:20px;
+}
+
+.d-block{
+    border-radius:8px;
+    margin-top:5%;
 }
 
 #me{
