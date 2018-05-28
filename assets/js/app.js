@@ -40,7 +40,7 @@ $(document).ready(function () {
 
   function about() {
     $('body').html('<div class=container></div>');
-    $('.container').html(`<div id='myinfo'><p>I am an adventurous soul with a love for design! I love to travel to beautiful destinations as well as create beautiful interactive applications. I am currently studying in the U of M Coding Bootcamp in order to start a career in Full Stack Web Development.</p><p> I have spent a decade of my professional time training others, coaching and developing their management skills as well as managing large groups of people.</p><p> I spent the first ten years of my professional life working for Burger King. I learned many skills; time management,people management, composure and temperment management, managing a P & L, everything HR (and MORE!) I ended my career with Burger King as a District Manager two years ago.</p><p> I am currently working for Office Depot at a Store Manager. The change of pace has granted me the ability to pursue a career I am more interested in.</p><p> On the lighter side of things I have a love for commitment! I have a turtle named Princess who I have had for over 15 years. My favorite places I have visited so far have been Puerto Rico, Alaska and NYC.</p><p> In Puerto Rico I signed up for a trip that seemed fun and adventurous to explore a cave. Little did I know that I would be in the cave for 8 hours and had to zipline and repel into the cave. At the time is seemed impossible, but reminiscing its pretty exciting that I did it! (... at the end they made us rock climb back up, AND I got to see a crab eating a bat! A bat eating crab!)</p><p> Alaska was a little less intense, I rented a car and drove as far as the roads would take me around Anchorage. From Copper Creek to Seward. Spent a few nights camping, and took a few trips out walking on glaciers and kayaking through some as well.</p><p> The best trip was NYC, food everywhere!</p></div>`);
+    $('.container').html(`<div id='myinfo'><p>I build better applications and business relationships through effective communication and relentless commitment.  I am a Full Stack Developer with a customer relations background. I believe that a visually stunning interface will attract clients, but a fully functional application will drive business and the retention of clients. I am dedicated to partnering with clients and a team to build highly functional and beautiful interfaces and websites</p><p>I am an adventurous soul with a love for design! I love to travel to beautiful destinations as well as create beautiful interactive applications. I am currently studying in the U of M Coding Bootcamp in order to start a career in Full Stack Web Development.</p><p> I have spent a decade of my professional time training others, coaching and developing their management skills as well as managing large groups of people.</p><p> I spent the first ten years of my professional life working for Burger King. I learned many skills; time management,people management, composure and temperment management, managing a P & L, everything HR (and MORE!) I ended my career with Burger King as a District Manager two years ago.</p><p> I am currently working for Office Depot at a Store Manager. The change of pace has granted me the ability to pursue a career I am more interested in.</p><p> On the lighter side of things I have a love for commitment! I have a turtle named Princess who I have had for over 15 years. My favorite places I have visited so far have been Puerto Rico, Alaska and NYC.</p><p> In Puerto Rico I signed up for a trip that seemed fun and adventurous to explore a cave. Little did I know that I would be in the cave for 8 hours and had to zipline and repel into the cave. At the time is seemed impossible, but reminiscing its pretty exciting that I did it! (... at the end they made us rock climb back up, AND I got to see a crab eating a bat! A bat eating crab!)</p><p> Alaska was a little less intense, I rented a car and drove as far as the roads would take me around Anchorage. From Copper Creek to Seward. Spent a few nights camping, and took a few trips out walking on glaciers and kayaking through some as well.</p><p> The best trip was NYC, food everywhere!</p></div>`);
   }
 
 
@@ -75,11 +75,15 @@ $(document).ready(function () {
   </div>
   <div class="carousel-item">
       <img class="d-block w-100" src="images/donna.jpg" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
-      <a href="https://dbarthell.github.io/GroupProject1/" target="_blank"><h4>(APP)Travel with Donna</h4></a><a href="https://github.com/dbarthell/GroupProject1" target="_blank"><h4>(GitHub Repo</h4></a>
+      <a href="https://dbarthell.github.io/GroupProject1/" target="_blank"><h4>(APP)Travel with Donna</h4></a><a href="https://github.com/dbarthell/GroupProject1" target="_blank"><h4>(GitHub Repo)</h4></a>
   </div>
   <div class="carousel-item">
   <img class="d-block w-100" src="images/group-project1.jpg" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
   <a href="https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60efee95-091b-4888-9a88-a8d7013a46fc" target="_blank"><h4>(APP)Travel with Donna DEMO Video</h4></a>
+</div>
+<div class="carousel-item">
+<img class="d-block w-100" src="images/liri.jpg" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
+<a href="https://github.com/Mbarbotiko/liri-node-app" target="_blank"><h4>(Node.JS)Liri Bot(GitHub Repo)</h4></a>
 </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -253,7 +257,7 @@ $(document).ready(function () {
 
 
 
-  //add an onclick or hover for my image for a short message welcoming the user to my page
+
 
   //   `<div class="modal" id='modalsubmit' tabindex="-1" role="dialog">
   //     <div class="modal-dialog" role="document">
