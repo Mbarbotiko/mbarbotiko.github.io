@@ -78,7 +78,7 @@ $(document).ready(function () {
       <a href="https://dbarthell.github.io/GroupProject1/" target="_blank"><h4>(APP)Travel with Donna</h4></a><a href="https://github.com/dbarthell/GroupProject1" target="_blank"><h4>(GitHub Repo)</h4></a>
   </div>
   <div class="carousel-item">
-  <img class="d-block w-100" src="images/group-project1.jpg" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
+  <img class="d-block w-100" src="images/group-project1.JPG" href="https://dbarthell.github.io/GroupProject1/"target="_blank"alt="Fifth slide">
   <a href="https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60efee95-091b-4888-9a88-a8d7013a46fc" target="_blank"><h4>(APP)Travel with Donna DEMO Video</h4></a>
 </div>
 <div class="carousel-item">
