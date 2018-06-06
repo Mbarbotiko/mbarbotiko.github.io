@@ -1,3 +1,8 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+
 #contactme{
     width:100%;
     text-align: center;
@@ -10,6 +15,7 @@
 }
 
 .card{
+    margin-top: 3%;
     padding:2%;
 }
 
@@ -167,6 +173,7 @@ img.nav-icon{
 }
 
 
+
 span.carousel-control-prev-icon,span.carousel-control-next-icon{
 
     background-color:rgb(6, 209, 245);
@@ -187,6 +194,7 @@ span.carousel-control-prev-icon,span.carousel-control-next-icon{
 
 .carousel-item h4{
     color:grey;
+    font-size:2vw;
     text-align: center;
     margin-top:20px;
 }

@@ -783,25 +783,52 @@
 
 			#portfolio-icon{
 				position: relative;
-				right:25%;
-				top:160px;
+				right:35%;
+				top:150px;
 			}
 			
 			#contact-icon{
 				position: relative;
-				left:15%;
-				top:160px;
+				left:25%;
+				top:150px;
 			}
 			
 			#about-icon{
 				position: relative;
-				top:40px;
+				top:15px;
 				left:10%;
 			}
+
 			#main .avatar img {
-				width:65%;
-		
+	
+				width:75%;
+			
 			}
+			.carousel-control-next{
+				right:33%;
+				bottom:40%;
+			   
+			}
+
+			.carousel-control-prev{
+				bottom:40%;
+				right:33%;
+			   
+			}
+			
+			span.carousel-control-prev-icon,span.carousel-control-next-icon{
+				padding:4%;
+				width:10px;
+				height:10px;
+
+
+			}
+
+			.carousel-item h4{
+				font-size:3vw;
+			}
+
+	
 		
 		}
 		
