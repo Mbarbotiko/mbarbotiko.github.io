@@ -105,7 +105,7 @@ $(document).ready(function () {
 <img class="d-block w-100" src="images/friendfinder.jpg" alt="Ninth slide">
 <a href="https://github.com/Mbarbotiko/FriendFinder.git" target="_blank"><h4>Friend Finder(GitHub Repo)</h4></a>
 <a href="https://frozen-island-71447.herokuapp.com/
-" target="_blank"><h4>Friend Finder (App)</h4></a>
+" target="_blank"><h4>Friend Finder (Express/Server)</h4></a>
 </div>
 
 </div>
