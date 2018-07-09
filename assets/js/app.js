@@ -108,10 +108,17 @@ $(document).ready(function () {
 " target="_blank"><h4>Friend Finder (Express/Server)</h4></a>
 </div>
 
+
+<div class="carousel-item">
+<img class="d-block w-100" src="images/swapigans.jpg" alt="Tenth slide">
+<a href="https://github.com/Mbarbotiko/Project-2" target="_blank"><h4>Swapigans(GitHub Repo)</h4></a>
+<a href="https://swapigans.herokuapp.com
+" target="_blank"><h4>Swapigans (Swap App, MYSQL, Sequelize)</h4></a>
 </div>
 
 
 
+</div>
 
 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
