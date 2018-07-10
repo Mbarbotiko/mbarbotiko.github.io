@@ -104,7 +104,7 @@ $(document).ready(function () {
 <div class="carousel-item">
 <img class="d-block w-100" src="images/friendfinder.jpg" alt="Ninth slide">
 <a href="https://github.com/Mbarbotiko/FriendFinder.git" target="_blank"><h4>Friend Finder(GitHub Repo)</h4></a>
-<a href="https://frozen-island-71447.herokuapp.com/
+<a href="https://your-bestfriend-finder.herokuapp.com/
 " target="_blank"><h4>Friend Finder (Express/Server)</h4></a>
 </div>
 
@@ -114,6 +114,13 @@ $(document).ready(function () {
 <a href="https://github.com/Mbarbotiko/Project-2" target="_blank"><h4>Swapigans(GitHub Repo)</h4></a>
 <a href="https://swapigans.herokuapp.com
 " target="_blank"><h4>Swapigans (Swap App, MYSQL, Sequelize)</h4></a>
+</div>
+
+<div class="carousel-item">
+<img class="d-block w-100" src="images/swapmeetup.jpg" alt="Eleventh slide">
+<a href="https://github.com/Mbarbotiko/swapmeetup" target="_blank"><h4>SwapMee+Up(GitHub Repo)</h4></a>
+<a href="https://swapmeetup.herokuapp.com/
+" target="_blank"><h4>SwapMee+Up (Swap App, MYSQL, Sequelize)</h4></a>
 </div>
 
 
