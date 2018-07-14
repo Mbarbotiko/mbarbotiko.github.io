@@ -89,38 +89,43 @@ $(document).ready(function () {
 
 <div class="carousel-item">
 <img class="d-block w-100" src="images/liri.JPG" alt="Seventh slide">
-<a href="https://github.com/Mbarbotiko/liri-node-app" target="_blank"><h4>(Node.JS)Liri Bot(GitHub Repo)</h4></a>
 <a href="https://drive.google.com/file/d/1EparZQQIjtx0XB9PTWqC_IH6sS07MWPJ/view?usp=sharing
 " target="_blank"><h4>Liri Bot (Video)</h4></a>
+<a href="https://github.com/Mbarbotiko/liri-node-app" target="_blank"><h4>(Node.JS)Liri Bot(GitHub Repo)</h4></a>
+
 </div>
 
 <div class="carousel-item">
 <img class="d-block w-100" src="images/bamazon.jpg" alt="Eighth slide">
-<a href="https://github.com/Mbarbotiko/bamazon" target="_blank"><h4>(Node.JS)Bamazon(GitHub Repo)</h4></a>
 <a href="https://drive.google.com/file/d/1dRfkBjcGQ7oKHhpowLm6AbaoYvssZapD/view
 " target="_blank"><h4>Bamazon (Video)</h4></a>
+<a href="https://github.com/Mbarbotiko/bamazon" target="_blank"><h4>(Node.JS)Bamazon(GitHub Repo)</h4></a>
+
 </div>
 
 <div class="carousel-item">
 <img class="d-block w-100" src="images/friendfinder.jpg" alt="Ninth slide">
-<a href="https://github.com/Mbarbotiko/FriendFinder.git" target="_blank"><h4>Friend Finder(GitHub Repo)</h4></a>
 <a href="https://your-bestfriend-finder.herokuapp.com/
 " target="_blank"><h4>Friend Finder (Express/Server)</h4></a>
+<a href="https://github.com/Mbarbotiko/FriendFinder.git" target="_blank"><h4>Friend Finder(GitHub Repo)</h4></a>
+
 </div>
 
 
 <div class="carousel-item">
 <img class="d-block w-100" src="images/swapigans.jpg" alt="Tenth slide">
-<a href="https://github.com/Mbarbotiko/Project-2" target="_blank"><h4>Swapigans(GitHub Repo)</h4></a>
 <a href="https://swapigans.herokuapp.com
 " target="_blank"><h4>Swapigans (Swap App, MYSQL, Sequelize)</h4></a>
+<a href="https://github.com/Mbarbotiko/Project-2" target="_blank"><h4>Swapigans(GitHub Repo)</h4></a>
+
 </div>
 
 <div class="carousel-item">
 <img class="d-block w-100" src="images/swapmeetup.jpg" alt="Eleventh slide">
-<a href="https://github.com/Mbarbotiko/swapmeetup" target="_blank"><h4>SwapMee+Up(GitHub Repo)</h4></a>
 <a href="https://swapmeetup.herokuapp.com/
 " target="_blank"><h4>SwapMee+Up (Swap App, MYSQL, Sequelize)</h4></a>
+<a href="https://github.com/Mbarbotiko/swapmeetup" target="_blank"><h4>SwapMee+Up(GitHub Repo)</h4></a>
+
 </div>
 
 
