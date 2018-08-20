@@ -43,18 +43,38 @@
 		transition: none !important;
 	}
 
-	html {
-		height: 100%;
+	body, html {
+
+		width: 100%;
+
+
+	overflow-x: hidden;
+
 	}
+
+	/* Main */
+#main-container{
+	background:white;
+	opacity:.9;
+	/* margin-bottom:2em;
+	padding-bottom:2em; */
+	position: relative;
+	margin: 0 auto;
+	/* margin-top:2em; */
+	width:auto;
+
+}
 
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("../../images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg-1.jpg");
+		background-image: url("../../images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
+		 url("../../images/bg-1.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
+		margin: auto 0;
 	}
 
 
@@ -530,19 +550,7 @@ body{
 	
 }
 
-/* Main */
-#main-container{
-	background:white;
-	/* width:90em; */
-	opacity:.9;
-	/* margin-bottom:2em;
-	padding-bottom:2em; */
-	position: relative;
-	margin: 0 auto;
-	/* margin-top:2em; */
-	width:100%;
 
-}
 	#main {
 		position: relative;
 		max-width: 50em;
@@ -565,6 +573,7 @@ body{
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
+		margin: auto 0;
 	}
 	
 
@@ -602,7 +611,6 @@ body{
 
 			#main {
 				min-width: 0;
-				width: 100%;
 				padding: 4em 2em 2.5em 2em ;
 			}
 
@@ -662,6 +670,7 @@ body{
 /* Wrapper */
 
 	#wrapper {
+		margin: auto 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -686,6 +695,8 @@ body{
 		min-height: 100%;
 		padding: 1.5em;
 		z-index: 2;
+		width:100%;
+	
 	}
 
 		#wrapper > * {
@@ -711,23 +722,6 @@ body{
 
 		@media screen and (max-width: 650px) and (min-width:500px) {
 
-			#portfolio-icon{
-				position: relative;
-				right:25%;
-				top:200px;
-			}
-			
-			#contact-icon{
-				position: relative;
-				left:15%;
-				top:200px;
-			}
-			
-			#about-icon{
-				position: relative;
-				top:40px;
-				left:10%;
-			}
 			#main .avatar img {
 				width:50%;
 		
@@ -737,23 +731,7 @@ body{
 
 		@media screen and (max-width: 575px) and (min-width:400px) {
 
-			#portfolio-icon{
-				position: relative;
-				right:25%;
-				top:150px;
-			}
-			
-			#contact-icon{
-				position: relative;
-				left:15%;
-				top:150px;
-			}
-			
-			#about-icon{
-				position: relative;
-				top:40px;
-				left:10%;
-			}
+
 
 			#main .avatar img {
 				width:55%;
@@ -764,23 +742,6 @@ body{
 
 		@media screen and (max-width: 450px) and (min-width:250px) {
 
-			#portfolio-icon{
-				position: relative;
-				right:35%;
-				top:150px;
-			}
-			
-			#contact-icon{
-				position: relative;
-				left:25%;
-				top:150px;
-			}
-			
-			#about-icon{
-				position: relative;
-				top:15px;
-				left:10%;
-			}
 
 			#main .avatar img {
 	

@@ -2,6 +2,112 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
+.projects {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
+  #project-expl{
+    position:relative;
+    float:left;
+    background:red;
+}
+
+
+  .inner-container {
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .inner-container::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+
+  .test{
+      background:white;
+      position: relative;
+      width:50%;
+      float:right;
+  }
+
+  .inner-container,
+.outer-container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+ul.no-bullet {
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-padding-start: 0px;
+  }
+  ul.no-bullet li {
+    list-style: none;
+    color:grey;
+  }
+  ul.no-bullet li:last-child {
+    border-bottom: 0px;
+  }
+
+  
+.card {
+    position: relative;
+    margin-bottom: 3em;
+  }
+  .card:hover .overlay-button {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .card:hover .overlay {
+    opacity: 0.8;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+  }
+  .card img {
+    /* margin: 0 auto;
+    max-width: 100%; */
+    width:50%;
+  }
+  .card .overlay-button {
+    opacity: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    -webkit-transform: translate(-50%, -10%);
+    -moz-transform: translate(-50%, -10%);
+    -ms-transform: translate(-50%, -10%);
+    -o-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    z-index: 3;
+  }
+  .card .overlay {
+    opacity: 0;
+    position: absolute;
+    /* background-color: #494c4e; */
+    background-color:rgb(6, 209, 245, .5);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+
+
 
 #contactme{
     width:100%;
@@ -51,7 +157,7 @@ a{
 }
 
 
-.container{
+/* .container{
     margin:5% auto;
     background-color:white;
     max-width: 1080px;
@@ -63,7 +169,7 @@ a{
     font-size: 10pt;
     text-transform: none;
 
-}
+} */
 
 
 
