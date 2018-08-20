@@ -95,24 +95,6 @@
 				line-height: 1.75;
 			}
 
-			#portfolio-icon{
-			position: relative;
-			right:0%;
-			top:0px;;
-			}
-		
-			#contact-icon{
-			position: relative;
-			left:10%;
-			top:0px
-			}
-		
-			#about-icon{
-			position: relative;
-			top:40px;
-			left:10%;
-			}
-
 		}
 
 
@@ -361,30 +343,7 @@
 
 }
 
-#portfolio-icon{
-	position: relative;
-	right:20%;
-	top:225px;
-}
 
-#contact-icon{
-	position: relative;
-	left:10%;
-	top:225px
-}
-
-#about-icon{
-	position: relative;
-	top:40px;
-	left:10%;
-}
-
-#portfolio-icon:hover, #contact-icon:hover, #about-icon:hover{
-	cursor: pointer;
-	opacity: .7;
-	
-	 
- }
 
 #header{
 	position:relative;
@@ -566,15 +525,30 @@
 			margin-left: 1.5em;
 		}
 
-
+body{
+	margin-top:-50px;
+	
+}
 
 /* Main */
+#main-container{
+	background:white;
+	/* width:90em; */
+	opacity:.9;
+	/* margin-bottom:2em;
+	padding-bottom:2em; */
+	position: relative;
+	margin: 0 auto;
+	/* margin-top:2em; */
+	width:100%;
 
+}
 	#main {
 		position: relative;
-		max-width: 100%;
-		min-width: 27em;
-		background: #ffffff;
+		max-width: 50em;
+		min-width: 50em;
+		/* max-height:50em; */
+		/* background: #ffffff; */
 		border-radius: 4px;
 		cursor: default;
 		opacity: 0.9;
@@ -656,14 +630,19 @@
 		align-self: flex-end;
 		width: 100%;
 		padding: 1.5em 0 0 0;
-		color: rgba(255, 255, 255, 0.75);
+		border-top:1px rgb(6, 209, 245) solid;
+		color:rgb(6, 209, 245);
+		padding-bottom:20px;
 		cursor: default;
 		text-align: center;
+	
+		
 	}
 
 		#footer .copyright {
 			margin: 0;
-			padding: 0;
+			color:rgb(6, 209, 245);
+            padding-bottom:20px;
 			font-size: 0.9em;
 			list-style: none;
 		}

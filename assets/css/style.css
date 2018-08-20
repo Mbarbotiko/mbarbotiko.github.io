@@ -24,23 +24,21 @@ a.list-group-item{
 }
 
 a.list-group-item:hover{
-    color:rgb(117, 245, 117);
+    color:grey;
 }
 
 
 .nav-link:hover{
-    color:rgb(117, 245, 117);
+    color:grey;
     
     
 
 }
 
 a:hover{
-    color:rgb(117, 245, 117);
+    color:grey;
     text-decoration:none; 
     
-    
-
 }
 
 ul{
@@ -157,7 +155,42 @@ img.nav-icon{
 
 .nav{
     margin-top:50px;
-    border-bottom:1px white solid;
+    border-bottom:1px rgb(6, 209, 245) solid;
+    color:rgb(6, 209, 245);
+    /* position: fixed;
+    top:0px;
+    left:0px;
+    background:(255, 255, 255, .9);
+    width:100em;
+     */
+}
+
+.list-group-item{
+
+   position:relative!important;
+   display: block!important;
+   float:left!important;
+   border:none;
+    /* border-left:1px solid rgb(6, 209, 245); */
+
+}
+
+.list-group-flush{
+
+    position:relative!important;
+    display: block!important;
+    float:left!important;
+    left:25%;
+    border:none;
+}
+
+.card{
+    border:none!important;
+
+}
+
+.card-header{
+    color:rgb(6, 209, 245);
 }
 
 .carousel-inner{
@@ -221,7 +254,7 @@ span.carousel-control-prev-icon,span.carousel-control-next-icon{
 }
 
 .carousel-item h4:hover{
-    color:rgb(6, 209, 245);;
+    color:rgb(6, 209, 245);
 
 }
 

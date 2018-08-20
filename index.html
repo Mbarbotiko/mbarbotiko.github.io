@@ -18,14 +18,14 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	 crossorigin="anonymous">
 
-	 <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
 
 
 	<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 
 	<link rel="stylesheet" href="assets/css/main.css" />
 
-	
+
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -33,70 +33,137 @@
 	<href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 
-	
+
 
 
 
 </head>
+<div id='main-container'>
+	<nav>
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a class="nav-link" id="abt" href="#">About Me</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="port" href="#">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="cont" href="#">Contact Me</a>
+			</li>
+		</ul>
+	</nav>
 
-<body class="is-loading">
+	<body class="is-loading">
 
 
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-		<!-- Main -->
-		<section id="main">
+			<!-- Main -->
+			<section id="main">
 
-			<header>
+				<header>
 
-				<img id="about-icon" src=images/about.png>
-				<img id="portfolio-icon" src=images/portfolio.png>
-				<img id="contact-icon" src=images/contact.png>
-				<span class="avatar">
-					<img src="images/profile.jpg" alt="" />
-				</span>
 
-				<h1>Margarita Barbotiko</h1>
-				<p>Full Stack Web Developer</p>
-			</header>
+					<span class="avatar">
+						<img src="images/profile.jpg" alt="" />
+					</span>
 
-			<footer>
-				<ul class="icons">
-					<li>
-						<a href="https://twitter.com/mbarbotiko1"  target="_blank" class="fa-twitter">Twitter</a>
+					<h1>Margarita Barbotiko</h1>
+					<p>Full Stack Web Developer</p>
+				</header>
+
+				<footer>
+					<ul class="icons">
+						<li>
+							<a href="https://twitter.com/mbarbotiko1" target="_blank" class="fa-twitter">Twitter</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/margarita-barbotiko-b5814050/" target="_blank" class="fa-linkedin">Instagram</a>
+						</li>
+						<li>
+							<a href="https://github.com/Mbarbotiko" target="_blank" class="fa-github">Facebook</a>
+						</li>
+					</ul>
+					<p>I build better applications and business relationships through effective communication and relentless commitment.</p>
+				</footer>
+
+			</section>
+
+		</div>
+	</body>
+
+
+
+
+
+
+
+
+
+
+
+	<form id='contactme'>
+		<div class="card">
+			<div class="card-header">
+				Contact Information:
+			</div>
+			<div>
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Margarita Barbotiko</li>
+					<li class="list-group-item">mbarbotiko@gmail.com</li>
+					<li class="list-group-item">
+						<a href="tel:1+651-600-1396">651-600-1396</a>
 					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/margarita-barbotiko-b5814050/"  target="_blank" class="fa-linkedin">Instagram</a>
-					</li>
-					<li>
-						<a href="https://github.com/Mbarbotiko" target="_blank" class="fa-github">Facebook</a>
+					<li class="list-group-item">
+						<a href="assets/MargaritaBarbotiko(2018).pdf" target="_blank">Resume</a>
 					</li>
 				</ul>
-			</footer>
+			</div>
+			<div>
+				<!-- <ul class="icons">
+									<li>
+										<a href="https://twitter.com/mbarbotiko1" target="_blank" class="fa-twitter">Twitter</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/margarita-barbotiko-b5814050/" target="_blank" class="fa-linkedin">Instagram</a>
+									</li>
+									<li>
+										<a href="https://github.com/Mbarbotiko" target="_blank" class="fa-github">Facebook</a>
+									</li>
+								</ul> -->
+			</div>
+		</div>
+	</form>
+	<footer id="footer">
+		<ul class="copyright">
+			<li>&copy; Margarita Barbotiko</li>
+		</ul>
+	</footer>
 
-		</section>
+</div>
 
 
 
-		<!-- Footer -->
-		<footer id="footer">
-			<ul class="copyright">
-				<li>&copy; Margarita Barbotiko</li>
-			</ul>
-		</footer>
 
-	</div>
 
-	<!-- Scripts -->
-	<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-	<script>
-		if ('addEventListener' in window) {
-			window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-			document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-		}
-	</script>
+
+
+
+<!-- Scripts -->
+<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+
+
+
+<script>
+	if ('addEventListener' in window) {
+		window.addEventListener('load', function () { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+		document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+	}
+</script>
+
+
 
 
 </body>
