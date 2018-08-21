@@ -695,7 +695,9 @@ body{
 		min-height: 100%;
 		padding: 1.5em;
 		z-index: 2;
-		width:100%;
+		padding-top:8em;
+		padding-bottom:8em;
+		border-bottom:rgb(6, 209, 245) solid 1px;
 	
 	}
 

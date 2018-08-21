@@ -2,16 +2,29 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
+
+.project-card{
+    width:50%;
+    float:right;
+    padding-top:0px!important;
+    height:20em;
+    margin-top:0px!important;
+}
+
+.card-header{
+    background-color:white!important;
+    border-bottom: black solid 1px!important;
+}
+
+.text-muted{
+    background-color:white!important;
+    border-top: black solid 1px!important;
+}
+
 .projects {
     padding-top: 6em;
     padding-bottom: 6em;
   }
-
-  #project-expl{
-    position:relative;
-    float:left;
-    background:red;
-}
 
 
   .inner-container {
@@ -84,7 +97,7 @@ ul.no-bullet {
     text-align: center;
     position: absolute;
     top: 48%;
-    left: 48%;
+    left: 50%;
     -webkit-transform: translate(-50%, -10%);
     -moz-transform: translate(-50%, -10%);
     -ms-transform: translate(-50%, -10%);
@@ -94,6 +107,12 @@ ul.no-bullet {
     -moz-transition: all 0.25s ease;
     transition: all 0.25s ease;
     z-index: 3;
+    
+  }
+
+  .btn-outline-light{
+      min-width:200px!important;
+      margin-top:10px;
   }
   .card .overlay {
     opacity: 0;
@@ -277,17 +296,9 @@ img.nav-icon{
    display: block!important;
    float:left!important;
    border:none;
+   clear: both;
     /* border-left:1px solid rgb(6, 209, 245); */
 
-}
-
-.list-group-flush{
-
-    position:relative!important;
-    display: block!important;
-    float:left!important;
-    left:25%;
-    border:none;
 }
 
 .card{
@@ -298,6 +309,12 @@ img.nav-icon{
 .card-header{
     color:rgb(6, 209, 245);
 }
+
+.card-footer{
+    color:rgb(6, 209, 245)!important;
+
+}
+
 
 .carousel-inner{
     width:70%;
