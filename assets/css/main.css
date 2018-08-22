@@ -144,7 +144,7 @@ a.list-group-item{
 }
 
 a.list-group-item:hover{
-    color:grey;
+    color:rgb(6, 209, 245);
 }
 
 .nav-link:hover{
@@ -227,19 +227,6 @@ img.nav-icon{
 		box-sizing: border-box;
 	}
 
-/* Basic */
-
-	@media screen and (max-width: 480px) {
-
-		html, body {
-			min-width: 320px;
-
-		}
-
-
-
-	}
-
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 		-moz-animation: none !important;
@@ -304,29 +291,6 @@ img.nav-icon{
 		text-transform: uppercase;
 	}
 
-		@media screen and (max-width: 2000px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-			.carousel-item h4{
-				font-size:1vw;
-			}
-
-		}
-
-	
-		@media screen and (max-width: 480px) {
-
-			body, input, select, textarea {
-				font-size: 10pt;
-				line-height: 1.75;
-			}
-
-		}
-
-
 	h1 {
 		font-size: 1.85em;
 		letter-spacing: 0.22em;
@@ -353,16 +317,6 @@ img.nav-icon{
 		font-size: 1em;
 	}
 
-
-
-	@media screen and (max-width: 480px) {
-
-		h1 {
-			font-size: 1.65em;
-		}
-
-
-	}
 
 /* Form */
 
@@ -698,32 +652,6 @@ img.nav-icon{
 						border-color: rgb(42, 195, 255);
 					}
 
-			@media screen and (max-width: 480px) {
-
-				ul.icons li a:before {
-					font-size: 1.5rem;
-				}
-
-
-		#portfolio-icon{
-			position: relative;
-			right:20%;
-			top:120px;;
-		}
-		
-		#contact-icon{
-			position: relative;
-			left:10%;
-			top:120px;
-		}
-		
-		#about-icon{
-			position: relative;
-			top:30px;
-			left:10%;
-		}
-
-			}
 
 		ul.actions {
 			cursor: default;
@@ -816,19 +744,6 @@ body{
 				background: #c8cccf;
 			}
 
-		@media screen and (max-width: 480px) {
-
-			#main {
-				min-width: 0;
-				padding: 4em 2em 2.5em 2em ;
-			}
-
-				#main .avatar:before {
-					left: -2em;
-					width: calc(100% + 4em);
-				}
-
-		}
 
 		body.is-loading #main {
 			opacity: 0;
@@ -919,74 +834,10 @@ body{
 			display: block;
 		}
 
-		@media screen and (max-width: 360px) {
-
-			#wrapper {
-				padding: 0.75em;
-			}
-
-		}
 
 		body.is-ie #wrapper {
 			height: 100%;
 		}
-
-		@media screen and (max-width: 650px) and (min-width:500px) {
-
-			#main .avatar img {
-				width:50%;
-		
-			}
-		
-		}
-
-		@media screen and (max-width: 575px) and (min-width:400px) {
-
-
-
-			#main .avatar img {
-				width:55%;
-		
-			}
-		
-		}
-
-		@media screen and (max-width: 450px) and (min-width:250px) {
-
-
-			#main .avatar img {
-	
-				width:75%;
-			
-			}
-			.carousel-control-next{
-				right:33%;
-				bottom:40%;
-			   
-			}
-
-			.carousel-control-prev{
-				bottom:40%;
-				right:33%;
-			   
-			}
-			
-			span.carousel-control-prev-icon,span.carousel-control-next-icon{
-				padding:4%;
-				width:10px;
-				height:10px;
-
-
-			}
-
-			.carousel-item h4{
-				font-size:3vw;
-			}
-
-	
-		
-		}
-		
 
 
 		
