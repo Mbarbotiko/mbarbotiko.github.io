@@ -98,30 +98,37 @@
             width:75%;
         
         }
-        .carousel-control-next{
-            right:33%;
-            bottom:40%;
-           
-        }
-
-        .carousel-control-prev{
-            bottom:40%;
-            right:33%;
-           
-        }
-        
-        span.carousel-control-prev-icon,span.carousel-control-next-icon{
-            padding:4%;
-            width:10px;
-            height:10px;
-
-
-        }
-
-        .carousel-item h4{
-            font-size:3vw;
-        }
-
 
     
+    }
+
+    @media screen and (max-width: 800px) and (min-width:250px) {
+
+
+        .project-card{
+           width:100%;
+            float:none;
+ 
+        }
+
+        .card img {
+            width:100%;
+          }
+
+          .card .overlay-button {
+            top: 25%;
+      
+    
+            
+          }
+    
+    }
+
+    @media screen and (max-width: 500px) and (min-width:250px) {
+        .card .overlay-button {
+            top: 15%;
+      
+    
+            
+          }
     }
