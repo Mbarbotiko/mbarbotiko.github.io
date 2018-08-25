@@ -117,10 +117,18 @@
 
           .card .overlay-button {
             top: 25%;
-      
-    
             
           }
+/* 
+          .github-link{
+              left:15%;
+          }
+
+          .project-link{
+            left:38%;
+          } */
+
+          /* center the containers instead in the overlay container position relative so they dont move and change the size of them  */
     
     }
 
