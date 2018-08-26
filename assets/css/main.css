@@ -8,7 +8,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 .project-card{
     width:50%;
     float:left;
@@ -24,18 +23,8 @@
     height:17em;
 	margin-top:0px!important;
 
-} */
-/* border left isnt showing see what is preventing this add it later */
+} 
 
-.project-list h1:nth-child(2n+1) {  
-	color:red;
-  }
-
-
-.card-header{
-    background-color:white!important;
-    border-bottom: black solid 1px!important;
-}
 /* 
 .bg{
 	background: rgba(0, 0, 0, 0.35); width: 250px; height: 250px; border-radius: 100%; border: 2px solid rgb(250, 249, 247) ;
@@ -101,7 +90,8 @@ ul.no-bullet {
     width:50%;
   }
   
-  /* .card:hover .overlay-button {
+
+  .card:hover .overlay-button {
     opacity: 1;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -110,15 +100,17 @@ ul.no-bullet {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  } */
-  /* .card:hover .overlay {
+	transform: translate(-50%, -50%);
+	
+  }
+   .card:hover .overlay {
     opacity: 0.8;
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 	cursor: pointer;
-  } */
+	
+  }
 
   .card .overlay-button {
     opacity: 0;
@@ -176,8 +168,7 @@ a.list-group-item{
 }
 
 a:hover{
-	/* color:rgba(250, 250, 250, 0.80); */
-	color:rgb(6, 209, 245)!important;
+	color:rgb(6, 209, 245);
     text-decoration:none;   
 }
 
@@ -187,7 +178,7 @@ a{
 }
 
 a.list-group-flush:hover{
-    color:rgb(6, 209, 245)!important;
+    color:rgb(6, 209, 245);
 }
 
 
