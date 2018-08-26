@@ -147,7 +147,6 @@ ul.no-bullet {
   .card .overlay {
     opacity: 0;
     position: absolute;
-    /* background-color: #494c4e; */
     background-color:rgb(6, 209, 245, .5);
     top: 0;
     width: 96%;
