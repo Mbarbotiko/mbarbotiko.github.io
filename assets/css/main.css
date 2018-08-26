@@ -11,23 +11,40 @@
 
 .project-card{
     width:50%;
-    float:right;
+    float:left;
     padding-top:0px!important;
     height:17em;
 	margin-top:0px!important;
-	background:green;
 
 }
+/* .project-card-odd{
+    width:50%;
+    float:left;
+    padding-top:0px!important;
+    height:17em;
+	margin-top:0px!important;
+
+} */
 /* border left isnt showing see what is preventing this add it later */
+
+.project-list h1:nth-child(2n+1) {  
+	color:red;
+  }
+
 
 .card-header{
     background-color:white!important;
     border-bottom: black solid 1px!important;
 }
+/* 
+.bg{
+	background: rgba(0, 0, 0, 0.35); width: 250px; height: 250px; border-radius: 100%; border: 2px solid rgb(250, 249, 247) ;
+	position:relative;
+	left:40%;
 
-.project-card-container{
-	background:red;
-}
+} */
+
+
 
 .text-muted{
     background-color:white!important;
@@ -43,7 +60,7 @@
     max-width: 80em;
     margin-left: auto;
 	margin-right: auto;
-	border:black solid 1px;
+
   }
   .inner-container::after {
     clear: both;
@@ -162,7 +179,7 @@ a.list-group-item:hover{
 }
 
 a:hover{
-    color:grey;
+    color:rgba(250, 250, 250, 0.80);
     text-decoration:none;   
 }
 
