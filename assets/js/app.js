@@ -6,13 +6,9 @@ $(document).ready(function () {
   function checkSize() {
     if ($(window).width() <= 800) {
 
-      $('.project-card-container').on("click", function () {
-        $('overlay').css({ 'opacity': '.8' });
-        $(".overlay").fadeToggle(1000);
-        $(".overlay-button").fadeToggle(1000);
+      $('.overlay-button').hide();
+      $('.overlay').hide();
 
-
-      });
 
     }
 

@@ -101,7 +101,7 @@ ul.no-bullet {
     width:50%;
   }
   
-  .card:hover .overlay-button {
+  /* .card:hover .overlay-button {
     opacity: 1;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -111,14 +111,14 @@ ul.no-bullet {
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
-  .card:hover .overlay {
+  } */
+  /* .card:hover .overlay {
     opacity: 0.8;
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 	cursor: pointer;
-  }
+  } */
 
   .card .overlay-button {
     opacity: 0;
