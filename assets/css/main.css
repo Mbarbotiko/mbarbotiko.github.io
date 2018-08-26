@@ -127,26 +127,6 @@ ul.no-bullet {
   }
 
 
-  .github-container .projectlink-container{
-	  position:relative;
-	  float: left;
-	  clear: both;
-	
-  }
-
-  .github-link{
-	  position: relative;
-	  float:left;
-	  left:20%;
-  }
-
-  .project-link{
-	  position: relative;
-	  float: left;
-	  left:50%;
-  }
-
-
   .card .overlay {
     opacity: 0;
     position: absolute;

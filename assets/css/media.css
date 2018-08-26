@@ -87,10 +87,15 @@
             width:55%;
     
         }
+        .github-container{
+            margin-top:100px;
+        }
     
+
+        
     }
 
-    @media screen and (max-width: 450px) and (min-width:250px) {
+    @media screen and (max-width: 475px) and (min-width:250px) {
 
 
         #main .avatar img {
@@ -98,7 +103,10 @@
             width:75%;
         
         }
-
+        .github-container{
+            margin-top:50px;
+        }
+    
     
     }
 
@@ -119,16 +127,12 @@
             top: 25%;
             
           }
-/* 
-          .github-link{
-              left:15%;
-          }
 
-          .project-link{
-            left:38%;
+          /* .mobileswipe{
+              height:100px;
+              background-color: purple;
           } */
 
-          /* center the containers instead in the overlay container position relative so they dont move and change the size of them  */
     
     }
 
