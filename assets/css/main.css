@@ -161,7 +161,9 @@ a.list-group-item{
     color:grey;
 }
 
-
+.nav{
+	height:100px;
+}
 
 .nav-link:hover{
     color:grey;
@@ -278,6 +280,7 @@ img.nav-icon{
 	margin: 0 auto;
 	/* margin-top:2em; */
 	width:auto;
+
 
 }
 
@@ -731,6 +734,7 @@ body{
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		margin: auto 0;
+		margin-top:100px;
 	}
 	
 
