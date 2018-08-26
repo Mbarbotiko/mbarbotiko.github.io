@@ -10,9 +10,10 @@ $(document).ready(function () {
 
       $('.project-card-container').click(function (event) {
         event.stopPropagation();
+        $('.overlay').toggle();
         $('.overlay-button').toggle();
         
-        $('.overlay').toggle();
+        
       });
 
       $(document).click(function () {
