@@ -53,6 +53,7 @@
         #main {
             min-width: 0;
             padding: 4em 2em 2.5em 2em ;
+            margin-top:0px;
         }
 
             #main .avatar:before {
