@@ -169,9 +169,24 @@ a.list-group-item{
     color:grey;
 }
 
+.fab:hover{ 
+transition: all .2s ease-in-out;
+transform: scale(1.1)
+}
+
+.fas:hover{ 
+	transition: all .2s ease-in-out;
+	transform: scale(1.1)
+	}
+
+
 a:hover{
 	color:rgb(6, 209, 245);
     text-decoration:none;   
+}
+
+.project-card-container a:hover{
+	color:white;
 }
 
 a{
