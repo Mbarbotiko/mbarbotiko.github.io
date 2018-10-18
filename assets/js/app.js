@@ -14,6 +14,57 @@ $(document).ready(function () {
 
   }
 
+
+  const projectList = [
+    {
+      header: 'Cava',
+      title: 'Front End Development',
+      text: 'HTML|CSS|JQuery',
+      footer: 'August 2018',
+      githubLink: 'https://github.com/Mbarbotiko/cava',
+      projectLink: 'https://mbarbotiko.github.io/cava/',
+    },
+    {
+      header: 'Neighborly|Group Project',
+      title: 'Back End Development',
+      text: 'MongoDB|Mongoose|Express|React|ES6',
+      footer: 'August 2018',
+      githubLink: 'https://github.com/robynocraig/neighborly',
+      projectLink: 'https://app-neighborly.herokuapp.com/',
+    },
+    {
+      header: 'Poke-Switch',
+      title: 'Front End Development',
+      text: 'JSX|ES6|CSS|React',
+      footer: 'August 2018',
+      githubLink: 'https://github.com/Mbarbotiko/pokeswitch',
+      projectLink: 'https://morning-mesa-94984.herokuapp.com/',
+    },
+
+  ]
+
+
+  // function printProjectList() {
+  //   return projectList.map(function (print) {
+  //     return print.header + 'Header' + print.title + 'Title'
+  //   })
+  // }
+  // console.log(printProjectList());
+
+//   function mapIt() {
+//     projectList.map(function (iterate) {
+//       console.log(iterate.header + iterate.title);
+//     })
+//   }
+
+// mapIt();
+
+
+
+
+
+
+
 });
 
 // https://your-bestfriend-finder.herokuapp.com/
