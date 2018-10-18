@@ -1,19 +1,18 @@
 $(document).ready(function () {
 
-  checkSize();
-  $(window).resize(checkSize);
-
+  window.addEventListener("resize", checkSize);
   function checkSize() {
     if ($(window).width() <= 800) {
-
       $('.overlay-button').hide();
       $('.overlay').hide();
-
-
+    }else{
+      $('.overlay-button').show();
+      $('.overlay').show();
     }
 
   }
-  //alt
+
+
 
   const projectList = [
     {
@@ -150,7 +149,7 @@ $(document).ready(function () {
 
 
   ]
-
+  printProjectList();
 
   function printProjectList() {
     projectList.map(function (print) {
@@ -196,7 +195,6 @@ $(document).ready(function () {
     })
   }
 
-  printProjectList();
 
 });
 
