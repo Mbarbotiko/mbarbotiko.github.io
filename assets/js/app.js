@@ -14,7 +14,16 @@ $(document).ready(function () {
 
 
 
-  const projectList = [
+  const projectList = [    {
+    header: 'Cava Manager App',
+    imageSource: './images/cava-manager.jpg',
+    alt: 'Cava Restaurant Website Manager',
+    title: 'Full Stack Development',
+    text: 'React|Express|MongoDB|Mongoose|CSS',
+    footer: 'October 2018',
+    githubLink: 'https://github.com/Mbarbotiko/cavamanager',
+    projectLink: 'https://immense-caverns-96918.herokuapp.com/',
+  },
     {
       header: 'Cava',
       imageSource: './images/cava.jpg',
@@ -30,7 +39,7 @@ $(document).ready(function () {
       imageSource: './images/neighborly.jpg',
       alt: 'Social Website',
       title: 'Back End Development',
-      text: 'MongoDB|Mongoose|Express|React|ES6',
+      text: 'MongoDB|Mongoose|Express|React',
       footer: 'August 2018',
       githubLink: 'https://github.com/robynocraig/neighborly',
       projectLink: 'https://app-neighborly.herokuapp.com/',
@@ -40,7 +49,7 @@ $(document).ready(function () {
       imageSource: './images/pokemonswitch.jpg',
       alt: 'Poke Switch Game',
       title: 'Front End Development',
-      text: 'JSX|ES6|CSS|React',
+      text: 'React|CSS',
       footer: 'August 2018',
       githubLink: 'https://github.com/Mbarbotiko/pokeswitch',
       projectLink: 'https://morning-mesa-94984.herokuapp.com/',
@@ -154,7 +163,6 @@ $(document).ready(function () {
   function printProjectList() {
     projectList.map(function (print) {
       $('.project-list').append(
-
         `<div class="inner-container"></div>
         <div class="card">
 					<div class="project-card-container">
