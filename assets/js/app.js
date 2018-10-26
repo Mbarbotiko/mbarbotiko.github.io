@@ -22,7 +22,7 @@ $(document).ready(function () {
     text: 'React|Express|MongoDB|Mongoose|CSS|Bootstrap',
     footer: 'October 2018',
     githubLink: 'https://github.com/Mbarbotiko/cavamanager',
-    projectLink: 'https://immense-caverns-96918.herokuapp.com/',
+    projectLink: 'https://cava-manager.herokuapp.com/ ',
   },
     {
       header: 'Cava',
