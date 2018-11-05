@@ -15,7 +15,7 @@ $(document).ready(function () {
     imageSource: './images/cava.jpg',
     alt: 'Cava Restaurant Website',
     title: 'Front End Development',
-    text: 'HTML|CSS|JQuery|Bootstrap',
+    text: 'HTML|CSS|SASS|AJAX|JQuery|Bootstrap',
     footer: 'August 2018',
     githubLink: 'https://github.com/Mbarbotiko/cava',
     projectLink: 'https://mbarbotiko.github.io/cava',
@@ -146,13 +146,9 @@ $(document).ready(function () {
   ]
 
   checkSize();
-
-
   window.addEventListener("resize", checkSize);
   function checkSize() {
     if ($(window).width() <= 800) {
-      console.log(checkSize);
-      console.log(window)
       $('.project-list').empty();
       printProjectList();
       $('.overlay-button').hide();
@@ -166,13 +162,6 @@ $(document).ready(function () {
     }
 
   }
-
-
-
-
-
-
-
   function printProjectList() {
     projectList.map(function (print) {
       $('.project-list').append(
