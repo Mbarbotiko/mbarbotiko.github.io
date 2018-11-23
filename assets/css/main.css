@@ -289,7 +289,7 @@ img.nav-icon{
 
 	/* Main */
 #main-container{
-	background:white;
+	background-color: 	rgb(255,255,255, 1);
 	opacity:.9;
 	/* margin-bottom:2em;
 	padding-bottom:2em; */
@@ -303,13 +303,13 @@ img.nav-icon{
 
 	body {
 		height: 100%;
-		background-color: #ffffff;
-		background-image:linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
+		background-color: 	rgb(255,255,255, 1);
+		background-image:
 		 url("../../images/bg-1.jpg");
-		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 100px 100px, cover,				cover;
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: top left;
+		background-attachment:fixed;
 		margin: auto 0;
 	}
 
