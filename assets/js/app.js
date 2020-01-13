@@ -7,6 +7,16 @@ $(document).ready(function () {
 
   const projectList = [
     {
+      header: 'Freelance | Raku Sushi Lounge (in progress)',
+      imageSource: './images/raku.jpg',
+      alt: 'Raku Sushi and Lounge Minnesota',
+      title: 'Front End Development',
+      text: 'HTML|CSS|SASS|Javascript|JQuery',
+      footer: 'January 2020',
+      githubLink: 'https://github.com/Mbarbotiko/Raku',
+      projectLink: 'http://rakusushi.herokuapp.com',
+    },
+    {
       header: 'Citizenship Test',
       imageSource: './images/citizen.jpg',
       alt: 'Citizenship test app',
