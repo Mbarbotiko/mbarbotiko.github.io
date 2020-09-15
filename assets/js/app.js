@@ -7,6 +7,16 @@ $(document).ready(function () {
 
   const projectList = [
     {
+      header: 'Pokemon Battle',
+      imageSource: './images/pokebattle.jpg',
+      alt: 'Pokemon Battle App',
+      title: 'Front End Development',
+      text: 'Javascript|ES6|OOP',
+      footer: 'Aug 2020',
+      githubLink: 'https://github.com/Mbarbotiko/pokebattle',
+      projectLink: 'http://www.margarita.design/pokebattle',
+    },
+    {
       header: 'To Do List',
       imageSource: './images/todolist.jpg',
       alt: 'To Do List Application',
