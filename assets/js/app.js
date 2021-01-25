@@ -27,7 +27,7 @@ $(document).ready(function () {
       projectLink: 'http://www.margarita.design/new-to-do-list/',
     },
     {
-      header: 'Freelance | Raku Sushi Lounge',
+      header: 'Raku Sushi Lounge',
       imageSource: './images/raku.jpg',
       alt: 'Raku Sushi and Lounge Minnesota',
       title: 'Front End Development',
