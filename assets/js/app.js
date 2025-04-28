@@ -35,7 +35,7 @@ $(document).ready(function () {
       text: 'HTML|CSS|SASS|Javascript|JQuery',
       footer: 'January 2020',
       githubLink: 'https://github.com/Mbarbotiko/Raku',
-     // projectLink: 'http://rakusushi.herokuapp.com',
+      projectLink: 'http://rakusushi.herokuapp.com',
     },
     {
       header: 'Citizenship Test',
@@ -46,7 +46,7 @@ $(document).ready(function () {
       footer: 'December 2018',
       githubLink: 'https://github.com/Mbarbotiko/citizenship',
       projectLink: 'http://mbarbotiko.github.io/citizenship',
-    },
+    },/*
     {
       header: 'Cava Manager App',
       imageSource: './images/cava-manager.jpg',
@@ -55,8 +55,8 @@ $(document).ready(function () {
       text: 'React|Express|MongoDB|Mongoose|CSS|Bootstrap',
       footer: 'October 2018',
       githubLink: 'https://github.com/Mbarbotiko/cavamanager',
-     // projectLink: 'https://cava-manager.herokuapp.com',
-    },
+      projectLink: 'https://cava-manager.herokuapp.com',
+    },*/
     {
       header: 'Cava',
       imageSource: './images/cava.jpg',
@@ -66,7 +66,7 @@ $(document).ready(function () {
       footer: 'August 2018',
       githubLink: 'https://github.com/Mbarbotiko/cava',
       projectLink: 'https://mbarbotiko.github.io/cava',
-    },
+    },/*
     {
       header: 'Neighborly|Group Project',
       imageSource: './images/neighborly.jpg',
@@ -75,7 +75,7 @@ $(document).ready(function () {
       text: 'MongoDB|Mongoose|Express|React',
       footer: 'August 2018',
       githubLink: 'https://github.com/robynocraig/neighborly',
-     // projectLink: 'https://app-neighborly.herokuapp.com',
+      projectLink: 'https://app-neighborly.herokuapp.com',
     },
     {
       header: 'Poke-Switch',
@@ -85,7 +85,7 @@ $(document).ready(function () {
       text: 'React|CSS|Bootstrap',
       footer: 'August 2018',
       githubLink: 'https://github.com/Mbarbotiko/pokeswitch',
-      //projectLink: 'https://morning-mesa-94984.herokuapp.com',
+      projectLink: 'https://morning-mesa-94984.herokuapp.com',
     },
     {
       header: 'SwapMee+Up|Group Project',
@@ -95,7 +95,7 @@ $(document).ready(function () {
       text: 'MySQL|Sequelize|Express|Node',
       footer: 'June 2018',
       githubLink: 'https://github.com/Mbarbotiko/swapmeetup',
-     // projectLink: 'https://swapmeetup.herokuapp.com',
+      projectLink: 'https://swapmeetup.herokuapp.com',
     },
     {
       header: 'Friend Finder',
@@ -105,8 +105,8 @@ $(document).ready(function () {
       text: 'HTML|CSS|JQuery|Express|Node',
       footer: 'June 2018',
       githubLink: 'https://github.com/Mbarbotiko/FriendFinder',
-     // projectLink: 'https://your-bestfriend-finder.herokuapp.com',
-    },
+      projectLink: 'https://your-bestfriend-finder.herokuapp.com',
+    },*/
     {
       header: 'Train Schedule',
       imageSource: './images/trainschedule.jpg',
@@ -212,87 +212,48 @@ $(document).ready(function () {
   }
   function printProjectList() {
     projectList.map(function (print) {
-      if(print.projectLink){
-        $('.project-list').append(
-          `<div class="inner-container"></div>
-          <div class="card">
-            <div class="project-card-container">
-                <a href="`+ print.projectLink + `"target="_blank">` +
-          `<img src=` + print.imageSource + ` alt=` + print.alt + `>
-              </a>
-              <div class="card text-center project-card">
-                <div class="card-header">
-                `+ print.header + `
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">`+ print.title + `</h5>
-                  <p class="card-text">`+ print.text + `</p>
-                </div>
-                <div class="card-footer text-muted">
-                  `+ print.footer + `</div>
-              </div>
-              <div class="overlay-button">
-                <div class="github-container">
-                  <a class="github-link" href=`+ print.githubLink + ` target="_blank">
-                    <i class="fab fa-github fa-3x"></i>
-                    <h2>Repository</h2>
-                  </a>
-                </div>
-                <div class="projectlink-container">
-                  <a class="project-link" href= `+ print.projectLink + ` target="_blank">
-                    <i class="fas fa-book-open fa-2x"></i>
-                    <h2>Live Project</h2>
-                  </a>
-                </div>
-              </div>
-              <div id='hide'>
-              <div class="overlay" href=""></div>
-              </div>
+      $('.project-list').append(
+        `<div class="inner-container"></div>
+        <div class="card">
+					<div class="project-card-container">
+							<a href="`+ print.projectLink + `"target="_blank">` +
+        `<img src=` + print.imageSource + ` alt=` + print.alt + `>
+						</a>
+						<div class="card text-center project-card">
+							<div class="card-header">
+							`+ print.header + `
+							</div>
+							<div class="card-body">
+								<h5 class="card-title">`+ print.title + `</h5>
+								<p class="card-text">`+ print.text + `</p>
+							</div>
+							<div class="card-footer text-muted">
+								`+ print.footer + `</div>
+						</div>
+						<div class="overlay-button">
+							<div class="github-container">
+								<a class="github-link" href=`+ print.githubLink + ` target="_blank">
+									<i class="fab fa-github fa-3x"></i>
+									<h2>Repository</h2>
+								</a>
+							</div>
+							<div class="projectlink-container">
+								<a class="project-link" href= `+ print.projectLink + ` target="_blank">
+									<i class="fas fa-book-open fa-2x"></i>
+									<h2>Live Project</h2>
+								</a>
+							</div>
             </div>
-          </div>
-        </div>`
-  
-        )
-      }else{
-        $('.project-list').append(
-          `<div class="inner-container"></div>
-          <div class="card">
-            <div class="project-card-container">
-                <a href="`+ print.projectLink + `"target="_blank">` +
-          `<img src=` + print.imageSource + ` alt=` + print.alt + `>
-              </a>
-              <div class="card text-center project-card">
-                <div class="card-header">
-                `+ print.header + `
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">`+ print.title + `</h5>
-                  <p class="card-text">`+ print.text + `</p>
-                </div>
-                <div class="card-footer text-muted">
-                  `+ print.footer + `</div>
-              </div>
-              <div class="overlay-button">
-                <div class="github-container">
-                  <a class="github-link" href=`+ print.githubLink + ` target="_blank">
-                    <i class="fab fa-github fa-3x"></i>
-                    <h2>Repository</h2>
-                  </a>
-                </div>
-              </div>
-              <div id='hide'>
-              <div class="overlay" href=""></div>
-              </div>
+            <div id='hide'>
+            <div class="overlay" href=""></div>
             </div>
-          </div>
-        </div>`
-  
-        )
+					</div>
+				</div>
+			</div>`
 
-      }
+      )
 
-
-
+      
     })
   }
 
